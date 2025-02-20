@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Analysis Exercises</title>
+    <link rel="stylesheet" href="styles.css">
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Real Analysis - Limit of a Sequence</h1>
+        <form id="quizForm">
+            <div class="question">
+                <p><strong>Question 1:</strong> Let \( \{a_n\} \) be a sequence of real numbers. Which of the following statements is *equivalent* to the definition of \( \lim_{n \to \infty} a_n = L \)?</p>
+                <input type="radio" id="a" name="q1" value="A">
+                <label for="a">A) For every \( \epsilon > 0 \), there exists an \( N \in \mathbb{N} \) such that for all \( n \geq N \), \( |a_n - L| < \epsilon \).</label><br>
+                <input type="radio" id="b" name="q1" value="B">
+                <label for="b">B) For every \( N \in \mathbb{N} \), there exists an \( \epsilon > 0 \) such that for all \( n \geq N \), \( |a_n - L| < \epsilon \).</label><br>
+                <input type="radio" id="c" name="q1" value="C">
+                <label for="c">C) There exists an \( N \in \mathbb{N} \) such that for all \( n \geq N \), \( |a_n - L| \leq \epsilon \) for all \( \epsilon > 0 \).</label><br>
+                <input type="radio" id="d" name="q1" value="D">
+                <label for="d">D) For every \( \epsilon > 0 \), there exists a number \( N \in \mathbb{N} \) such that for all \( n < N \), \( |a_n - L| < \epsilon \).</label><br>
+            </div>
+            <button type="button" onclick="checkAnswer()">Submit Answer</button>
+        </form>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
