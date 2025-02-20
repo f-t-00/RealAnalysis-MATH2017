@@ -1,0 +1,4 @@
+// script.js
+
+// Example: You can add interactive JS here if needed in the future
+console.log('Welcome to the Math Equations Page!');
